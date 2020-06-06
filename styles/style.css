@@ -23,10 +23,11 @@ body {
     height: 100px;
 }
 #display-text {
-    outline: 1px solid;
+    display: block;
+    background-color: green;
     font-size: 52px;
     text-align: right;
-    margin-top: 15px;
+    margin: 19px 0; 
 }
 #buttons-container {
     font-size: 0;
@@ -39,7 +40,4 @@ body {
     height: 110px;
     width: 110px;
     font-size: 35px;
-}
-#button-equal {
-    height: 220px;
 }
