@@ -19,15 +19,15 @@ body {
 #display {
     background-color: brown;
     border: 1px solid;
-    width: 439px;
-    height: 100px;
+    width: 438px;
+    height: 120px;
 }
 #display-text {
     display: block;
     background-color: green;
     font-size: 52px;
     text-align: right;
-    margin: 19px 0; 
+    margin: 27px 0; 
 }
 #buttons-container {
     font-size: 0;
@@ -40,4 +40,13 @@ body {
     height: 110px;
     width: 110px;
     font-size: 35px;
+}
+#button-c {
+    width: 220px;
+}
+#button-zero {
+    width: 220px;
+}
+.buttons a {
+    text-align: center;
 }

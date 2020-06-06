@@ -49,7 +49,7 @@ function displayInputNumber() {
 
 function isLongDisplay() {
     if (displayText.textContent.length >= 12) {
-        displayText.style.cssText = 'font-size: 27px; margin: 34px 0';
+        displayText.style.cssText = 'font-size: 27px; margin: 44px 0';
         // isprav' skachok texta v css
     }
 }
@@ -83,7 +83,7 @@ function displayInputResult() {
         decimalNum2 = '';
         operator = null;
         if (displayText.textContent.length <= 12) {
-            displayText.style.cssText = 'font-size: 52px; margin: 19px 0';
+            displayText.style.cssText = 'font-size: 52px; margin: 27px 0';
         }
     }
 }
@@ -97,7 +97,7 @@ function resetInput() {
     decimalNum2 = '';
     operator = null;
     expressionResult = null;
-    displayText.style.cssText = 'font-size: 52px; margin: 19px 0';
+    displayText.style.cssText = 'font-size: 52px; margin: 27px 0';
 }
 
 buttonPoint.addEventListener('click', addDecimal);
